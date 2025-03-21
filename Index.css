@@ -282,3 +282,19 @@
           background-color: var(--dark-color);
           color: var(--primary-color);
       }
+
+      /* Media Query */
+
+      @media only screen and (max-width: 350px) {
+        .hero {
+            padding: 100px 0;
+        }
+
+      }
+
+      @media only screen and (max-width: 400px) {
+        .hero {
+            padding: 150px 0;
+        }
+      }
+
