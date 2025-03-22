@@ -6,7 +6,8 @@
         }
         
         html{
-          scroll-padding-top: 70px;
+          scroll-padding-top: 100px;
+          scroll-behavior: smooth;
         }
 
         body {
@@ -60,7 +61,7 @@
 
         /* Hero Section */
         .hero {
-            height: 870px;
+            height: 789px;
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/home-slide-3.jpg') no-repeat center center;
             background-size: cover;
             padding: 250px 0;
@@ -124,13 +125,59 @@
         }
         
         .project-card:hover .project-overlay {
-            height: 100%;
+            height: 50%;
         }
 
         .project-card img {
           width: 100%;
           height: 300px; 
       }
+
+      /* Fullscreen View */
+
+      .fullscreen-viewer {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+      
+      .fullscreen-viewer img {
+        max-width: 90%;
+        max-height: 80%;
+        border-radius: 10px;
+        object-fit: contain;
+      }
+      
+      .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+      }
+      
+      #prevBtn, #nextBtn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 40px;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #prevBtn { left: 20px; }
+      #nextBtn { right: 20px; }
+      
       
         
         /* Team Section */
@@ -170,6 +217,29 @@
       }
 
         /* Testimonials Section */
+        .owl-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            padding: 0 -20px;
+        }
+        
+        .owl-prev, .owl-next {
+            width: 40px;
+            height: 40px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color) !important;
+            border-radius: 50% !important;
+        }
+        
+        .owl-dots {
+            margin-top: 20px;
+        }
         .testimonial-card {
             border: none;
             padding: 30px;
@@ -292,7 +362,7 @@
 
       }
 
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 420px) {
         .hero {
             padding: 150px 0;
         }

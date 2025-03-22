@@ -6,9 +6,11 @@
     <title>Ravi Mahajan Group</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="Index.css">
 </head>
-<body>
+<body>  
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-tops py-3">
         <div class="container">
@@ -19,25 +21,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link active" id="ha" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" id="ab" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" id="se" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" id="pr" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" id="te" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                        <a class="nav-link" id="re" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" id="co" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,13 +63,13 @@
 
 
     <!-- About Section -->
-    <section id="about" class="py-5">
+    <section id="about" class="pt-5 pb-2">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="/images/29488.avif" alt="About Us" class="img-fluid">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/29488.avif" alt="About Us" class="img-fluid ">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <h6 class="text-warning fw-bold">ABOUT US</h6>
                     <h2 class="fw-bold mb-4">We've Been Building For Over 34 Years</h2>
                     <p class="mb-4">
@@ -78,18 +80,15 @@
                             <ul class="list-unstyled">
                                 <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> Quality Craftsmanship</li>
                                 <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> Licensed & Insured</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> On-time Completion</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled">
                                 <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> Experienced Team</li>
                                 <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> Safety Compliant</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-warning me-2"></i> Competitive Pricing</li>
                             </ul>
                         </div>
                     </div>
-                    <a href="#contact" class="btn btn-warning">Learn More</a>
                 </div>
             </div>
         </div>
@@ -113,7 +112,6 @@
                             <div class="services-icon"><i class="fas fa-home"></i></div>
                             <h5 class="card-title fw-bold">Residential Construction</h5>
                             <p class="card-text">We build custom homes, renovations, and extensions that reflect your personal style and meet your family's needs.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +121,6 @@
                             <div class="services-icon"><i class="fas fa-building"></i></div>
                             <h5 class="card-title fw-bold">Commercial Construction</h5>
                             <p class="card-text">From office buildings to retail spaces, we create functional commercial environments designed for business success.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +130,6 @@
                             <div class="services-icon"><i class="fas fa-industry"></i></div>
                             <h5 class="card-title fw-bold">Industrial Construction</h5>
                             <p class="card-text">Our industrial construction solutions focus on durability, efficiency, and compliance with industry regulations.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +139,6 @@
                             <div class="services-icon"><i class="fas fa-tools"></i></div>
                             <h5 class="card-title fw-bold">Renovation & Remodeling</h5>
                             <p class="card-text">Transform existing spaces with our expert renovation and remodeling services tailored to your vision.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +148,6 @@
                             <div class="services-icon"><i class="fas fa-hard-hat"></i></div>
                             <h5 class="card-title fw-bold">Project Management</h5>
                             <p class="card-text">We provide comprehensive project management services to ensure your construction project is delivered on time and within budget.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +157,6 @@
                             <div class="services-icon"><i class="fas fa-pencil-ruler"></i></div>
                             <h5 class="card-title fw-bold">Design & Planning</h5>
                             <p class="card-text">Our design and planning services help turn your ideas into detailed blueprints and execution strategies.</p>
-                            <a href="#contact" class="text-warning fw-bold text-decoration-none">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -182,14 +175,14 @@
                     <p class="lead">Explore our portfolio of successfully completed construction projects</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row gallery">
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <img src="images/Project - 1.jpeg" alt="Luxury Home" class="img-fluid">
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Amodini Residence</h5>
                             <p class="text-white-50 mb-3">Mumbai Naka, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
@@ -199,7 +192,7 @@
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Aaradhya Residence</h5>
                             <p class="text-white-50 mb-3">Kathe Galli, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +202,7 @@
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Ashmika Residence</h5>
                             <p class="text-white-50 mb-3">Gangapur Road, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +212,7 @@
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Amrapali Residence</h5>
                             <p class="text-white-50 mb-3">Ashoka Marg, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
@@ -229,7 +222,7 @@
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Antariksh Residence</h5>
                             <p class="text-white-50 mb-3">Kutwad Nagar, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
@@ -239,12 +232,18 @@
                         <div class="project-overlay">
                             <h5 class="text-white mb-2">Amogha Complex</h5>
                             <p class="text-white-50 mb-3">Bhujbal Farms, Nashik</p>
-                            <a href="#" class="btn btn-warning btn-sm">View Details</a>
+                            <a href="#projects" class="btn btn-warning view-btn btn-sm">View</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="fullscreenViewer" class="fullscreen-viewer">
+            <span class="close-btn">&times;</span>
+            <img id="viewerImage" src="" alt="Project Image">
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
+          </div>
     </section>
 
 
@@ -254,25 +253,33 @@
             <div class="row">
                 <div class="col-md-3 col-6 mb-4 mb-md-0">
                     <div class="stats-box">
-                        <div class="stats-number">34+</div>
+                        <div class="stats-number">
+                            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="34" data-purecounter-duration="2" data-purecounter-suffix="+">0</span>+
+                        </div>
                         <p class="mb-0">Years Experience</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-4 mb-md-0">
                     <div class="stats-box">
-                        <div class="stats-number">450+</div>
+                        <div class="stats-number">
+                            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="2" data-purecounter-suffix="+">0</span>+
+                        </div>
                         <p class="mb-0">Projects Completed</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="stats-box">
-                        <div class="stats-number">95%</div>
+                        <div class="stats-number">
+                            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="2" data-purecounter-suffix="%">0</span>+
+                        </div>
                         <p class="mb-0">Satisfied Clients</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="stats-box">
-                        <div class="stats-number">350+</div>
+                        <div class="stats-number">
+                            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="2" data-purecounter-suffix="+">0</span>+
+                        </div>
                         <p class="mb-0">Expert Workers</p>
                     </div>
                 </div>
@@ -294,16 +301,11 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card team-card">
-                        <img src="/images/pic-3.png" class="card-img-top" alt="Team Member">
+                        <img src="images/pic-3.png" class="card-img-top" alt="Team Member">
                         <div class="card-body text-center">
-                            <h5 class="card-title mb-1">Ravi Mahajan</h5>
+                            <h5 class="card-title mb-1 text-warning fw-medium">Ravi Mahajan</h5>
                             <p class="text-muted small mb-3">CEO & Founder</p>
                             <p class="card-text small">With over 30 years of experience in construction management and business development.</p>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -311,14 +313,9 @@
                     <div class="card team-card">
                         <img src="images/pic-5.png" class="card-img-top" alt="Team Member">
                         <div class="card-body text-center">
-                            <h5 class="card-title mb-1">Amit Verma</h5>
+                            <h5 class="card-title mb-1 text-warning fw-medium">Amit Verma</h5>
                             <p class="text-muted small mb-3">Chief Architect</p>
                             <p class="card-text small">Award-winning architect with 30 Years of expertise in sustainable and innovative building design.</p>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -326,14 +323,9 @@
                     <div class="card team-card">
                         <img src="images/pic-4.png" class="card-img-top" alt="Team Member">
                         <div class="card-body text-center">
-                            <h5 class="card-title mb-1">Sneha Kapoor</h5>
+                            <h5 class="card-title mb-1 text-warning fw-medium">Sneha Kapoor</h5>
                             <p class="text-muted small mb-3">Project Manager</p>
                             <p class="card-text small">Specialized in coordinating large-scale commercial and industrial construction projects.</p>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -341,14 +333,9 @@
                     <div class="card team-card">
                         <img src="images/pic-2.png" class="card-img-top" alt="Team Member">
                         <div class="card-body text-center">
-                            <h5 class="card-title mb-1">Akshaya Pawar</h5>
+                            <h5 class="card-title mb-1 text-warning fw-medium">Akshaya Pawar</h5>
                             <p class="text-muted small mb-3">Interior Designer</p>
                             <p class="card-text small">Creates functional and aesthetically pleasing interior spaces for all our construction projects.</p>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -368,41 +355,60 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="d-flex align-items-center mb-4">
-                            <div>
-                                <h5 class="mb-0">Bhupesh Pawar</h5>
-                                <p class="text-muted mb-0">Homeowner</p>
+                <div class="col-12">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="item text-center">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <div>
+                                    <h5 class="mb-0">Bhupesh Pawar</h5>
+                                    <p class="text-muted mb-0">Homeowner</p>
+                                </div>
+                            </div>
+                            <div class="quote-icon text-center mb-3"><i class="fas fa-quote-left"></i></div>
+                            <p>We are extremely pleased with our home! RAVI MAHAJAN & DEVELOPERS was our only choice after considering the other builders.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
-                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p>We are extremely pleased with our home! RAVI MAHAJAN & DEVELOPERS was our only choice after considering the other builders.</p>
-                        <div class="text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <div class="d-flex align-items-center mb-4">
-                            <div>
-                                <h5 class="mb-0">Ankush Pandit</h5>
-                                <p class="text-muted mb-0">Business Owner</p>
+
+                        <div class="item text-center">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <div>
+                                    <h5 class="mb-0">Tushar Datir</h5>
+                                    <p class="text-muted mb-0">Homeowner</p>
+                                </div>
+                            </div>
+                            <div class="quote-icon text-center mb-3"><i class="fas fa-quote-left"></i></div>
+                            <p>We are extremely pleased with our home! RAVI MAHAJAN & DEVELOPERS was our only choice after considering the other builders.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
-                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                        <p>Projects of Ravi Mahajan builders are very nice. Specious room size, quality construction and meet the customer requirements.</p>
-                        <div class="text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+
+                        <div class="item text-center">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <div>
+                                    <h5 class="mb-0">Ankush Pandit</h5>
+                                    <p class="text-muted mb-0">Business Owner</p>
+                                </div>
+                            </div>
+                            <div class="quote-icon text-center mb-3"><i class="fas fa-quote-left"></i></div>
+                            <p>Projects of Ravi Mahajan builders are very nice. Specious room size, quality construction and meet the customer requirements.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -431,19 +437,15 @@
                             <form>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <label for="name" class="form-label">Full Name</label>
                                         <input type="text" class="form-control" id="name" placeholder="Your name">
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <label for="email" class="form-label">Email Address</label>
                                         <input type="email" class="form-control" id="email" placeholder="Your email">
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <label for="phone" class="form-label">Phone Number</label>
                                         <input type="tel" class="form-control" id="phone" placeholder="Your phone">
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <label for="project-type" class="form-label">Project Type</label>
                                         <select class="form-select" id="project-type">
                                             <option selected>Select project type</option>
                                             <option>Residential Construction</option>
@@ -454,7 +456,6 @@
                                         </select>
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <label for="message" class="form-label">Project Details</label>
                                         <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your project"></textarea>
                                     </div>
                                     <div class="col-12">
@@ -472,7 +473,7 @@
     <!-- Contact Section -->
     <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <div class="row text-center mb-5">
+            <div class="row text-center">
                 <div class="col-lg-8 mx-auto">
                     <h6 class="text-warning fw-bold">CONTACT US</h6>
                     <h2 class="fw-bold">Get In Touch</h2>
@@ -480,21 +481,22 @@
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-md-4 mt-0">
                     <div class="contact-card text-center p-4">
                         <div class="contact-icon mb-3"><i class="fas fa-map-marker-alt"></i></div>
                         <h5>Our Location</h5>
                         <p class="mb-0">A2Z IT HUB<br>Prasad Circle, Nashik</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-0">
+                    
                     <div class="contact-card text-center p-4">
                         <div class="contact-icon mb-3"><i class="fas fa-phone-alt"></i></div>
                         <h5>Call Us</h5>
                         <p class="mb-0">Main: +91 1234567891<br>Support: +91 9876543219</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-0">
                     <div class="contact-card text-center p-4">
                         <div class="contact-icon mb-3"><i class="fas fa-envelope"></i></div>
                         <h5>Email Us</h5>
@@ -516,7 +518,7 @@
     <footer class="py-5 bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="col-lg-4 mb-4 col-12 mb-lg-0">
                     <h4 class="text-white">Ravi<span class="text-warning">Mahajan</span>Group</h4>
                     <p class="text-white-50 mb-4">Delivering exceptional construction services with a commitment to quality, safety, and client satisfaction for over 34 years.</p>
                     <div class="social-icons">
@@ -526,7 +528,7 @@
                         <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-2 col-6 mb-4 mb-md-0">
                     <h5 class="text-white mb-4">Quick Links</h5>
                     <ul class="list-unstyled footer-links">
                         <li class="mb-2"><a href="#home">Home</a></li>
@@ -536,7 +538,7 @@
                         <li class="mb-2"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-2 col-6 mb-4 mb-md-0">
                     <h5 class="text-white mb-4">Our Services</h5>
                     <ul class="list-unstyled footer-links">
                         <li class="mb-2"><a class="useful-links">Residential</a></li>
@@ -546,7 +548,7 @@
                         <li class="mb-2"><a class="useful-links">Interior Design</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p class="text-white-50 mb-4">Subscribe to our newsletter for the latest updates and construction insights.</p>
                     <form class="mb-3">
@@ -574,5 +576,159 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const viewButtons = document.querySelectorAll(".view-btn");
+    const images = document.querySelectorAll(".gallery img");
+    const viewer = document.getElementById("fullscreenViewer");
+    const viewerImage = document.getElementById("viewerImage");
+    const closeBtn = document.querySelector(".close-btn");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let currentIndex = 0;
+
+    function openViewer(index) {
+        viewer.style.display = "flex";
+        viewerImage.src = images[index].src;
+        currentIndex = index;
+    }
+
+    function closeViewer() {
+        viewer.style.display = "none";
+    }
+
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        viewerImage.src = images[currentIndex].src;
+    }
+
+    function showPrevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        viewerImage.src = images[currentIndex].src;
+    }
+
+    viewButtons.forEach((btn, index) => {
+        btn.addEventListener("click", () => openViewer(index));
+    });
+
+    closeBtn.addEventListener("click", closeViewer);
+    nextBtn.addEventListener("click", showNextImage);
+    prevBtn.addEventListener("click", showPrevImage);
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeViewer();
+        if (e.key === "ArrowRight") showNextImage();
+        if (e.key === "ArrowLeft") showPrevImage();
+    });
+
+    viewer.addEventListener("click", (e) => {
+        if (e.target === viewer) closeViewer();
+    });
+});
+
+
+
+new PureCounter({
+        selector: '.purecounter',
+        once: true,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        duration: 2,
+        delay: 10
+    });
+
+
+
+    $(document).ready(function(){
+        $(".testimonial-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 30,
+            nav: true,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            navText: [
+                "<i class='fas fa-chevron-left'></i>",
+                "<i class='fas fa-chevron-right'></i>"
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    });
+
+
+
+    function smoothScroll(target, duration) {
+  let element = document.querySelector(target);
+  let targetPosition = element.getBoundingClientRect().top + window.scrollY - 70; // Adjust by 200px
+  let startPosition = window.scrollY;
+  let startTime = null;
+
+  function animation(currentTime) {
+    if (startTime === null) startTime = currentTime;
+    let timeElapsed = currentTime - startTime;
+    let run = ease(timeElapsed, startPosition, targetPosition - startPosition, duration);
+    
+    window.scrollTo(0, run);
+    
+    if (timeElapsed < duration) requestAnimationFrame(animation);
+  }
+
+  function ease(t, b, c, d) { 
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t + b;
+    t--;
+    return (-c / 2) * (t * (t - 2) - 1) + b;
+  }
+
+  requestAnimationFrame(animation);
+}
+
+document.querySelector("#ha").addEventListener("click", function () {
+  smoothScroll("#home", 2000);
+});
+
+document.querySelector("#ab").addEventListener("click", function () {
+  smoothScroll("#about", 2000);
+});
+
+document.querySelector("#se").addEventListener("click", function () {
+  smoothScroll("#services", 2000);
+});
+
+document.querySelector("#pr").addEventListener("click", function () {
+  smoothScroll("#projects", 2000);
+});
+
+document.querySelector("#te").addEventListener("click", function () {
+  smoothScroll("#team", 2000);
+});
+
+document.querySelector("#re").addEventListener("click", function () {
+  smoothScroll("#testimonials", 2000);
+});
+
+document.querySelector("#co").addEventListener("click", function () {
+  smoothScroll("#contact", 2000);
+});
+
+    </script>
 </body>
 </html>
