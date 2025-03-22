@@ -54,8 +54,8 @@
                 <div class="col-md-10">
                     <h1>Building Dreams Into Reality</h1>
                     <p class="lead mb-4">We're committed to delivering high-quality construction services with innovative solutions for all your building needs.</p>
-                    <a href="#services" class="btn btn-warning hero-btn my-3">Our Services</a>
-                    <a href="#contact" class="btn btn-outline-light hero-btn">Contact Us</a>
+                    <a href="#services" id="ser" class="btn btn-warning hero-btn my-3">Our Services</a>
+                    <a href="#contact" id="cot" class="btn btn-outline-light hero-btn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -713,6 +713,10 @@ document.querySelector("#se").addEventListener("click", function () {
   smoothScroll("#services", 2000);
 });
 
+document.querySelector("#ser").addEventListener("click", function () {
+  smoothScroll("#services", 2000);
+});
+
 document.querySelector("#pr").addEventListener("click", function () {
   smoothScroll("#projects", 2000);
 });
@@ -726,6 +730,10 @@ document.querySelector("#re").addEventListener("click", function () {
 });
 
 document.querySelector("#co").addEventListener("click", function () {
+  smoothScroll("#contact", 2000);
+});
+
+document.querySelector("#cot").addEventListener("click", function () {
   smoothScroll("#contact", 2000);
 });
 
