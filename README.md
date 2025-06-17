@@ -49,8 +49,7 @@ Edit
 <h3>📬 Contact</h3>
 
 <p>
-  🔗 Website: <a href="#">ravimahajanbuilders.com</a><br/>
-  📧 Email: <a href="mailto:contact@ravimahajanbuilders.com">contact@ravimahajanbuilders.com</a><br/>
+  📧 Email: <a href="mailto:contact@ravimahajanbuilders.com">akhilesh0222r@gmail.com</a><br/>
   📍 Location: Nashik, Maharashtra, India
 </p>
 
@@ -61,7 +60,17 @@ Edit
   <a href="https://github.com/Akhilesh-2024" target="_blank">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/akhilesh-2024" target="_blank">
+  <a href="https://www.linkedin.com/in/akhilesh2022" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+<p>
+  <b>Atharva</b><br/>
+  <a href="https://github.com/Atharva-2510" target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/atharva-pimparkar-37915b2a9" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
