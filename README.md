@@ -29,18 +29,17 @@
 
 <h3>📁 Folder Structure</h3>
 
--- .
--- ├── index.html
--- ├── css/
--- │ └── style.css
--- ├── js/
--- │ └── main.js
--- ├── images/
--- └── README.md
+<pre>
+.
+├── index.html
+├── css/
+│ └── style.css
+├── js/
+│ └── main.js
+├── images/
+└── README.md
+</pre>
 
-<h3>📷 Preview</h3>
-
-![Preview Screenshot](https://via.placeholder.com/900x500.png?text=Website+Preview)
 
 <h3>📬 Contact</h3>
 
