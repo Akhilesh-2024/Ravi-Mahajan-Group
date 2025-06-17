@@ -29,18 +29,14 @@
 
 <h3>📁 Folder Structure</h3>
 
-.
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── main.js
-├── images/
-└── README.md
-
-php-template
-Copy
-Edit
+-- .
+-- ├── index.html
+-- ├── css/
+-- │ └── style.css
+-- ├── js/
+-- │ └── main.js
+-- ├── images/
+-- └── README.md
 
 <h3>📷 Preview</h3>
 
